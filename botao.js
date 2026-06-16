@@ -1,8 +1,8 @@
 (function () {
   function init() {
-    var params = new URLSearchParams(window.location.search);
-    if (params.get('origem') !== 'acdccasa') return;
-
+    if (params.get('origem') === 'acdccasa') {
+  sessionStorage.setItem(SESSION_KEY, 'true');
+}
     var style = document.createElement('style');
     style.textContent = `
       #btn-voltar-acdc {
