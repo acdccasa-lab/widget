@@ -29,7 +29,7 @@
 
   var btn = document.createElement('a');
   btn.id = 'btn-voltar-acdc';
-  btn.href = 'cvvisudf.lojavirtualnuvem.com.br';
+  btn.href = 'https://www.acdccasa.com.br';
   btn.textContent = '← Voltar para o site';
   document.body.appendChild(btn);
 })();
